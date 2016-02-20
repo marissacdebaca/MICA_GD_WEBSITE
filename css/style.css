@@ -1,0 +1,837 @@
+
+/* Remove later */
+/* Create Navbar text */
+
+/* makes ure padding and border are included in total width*/
+
+/* TEXT: Probably need to make bigger. Looks small... */
+/* Heading in featured article */
+body {
+  padding-top: 20px;
+  /*background-color: #f6f6f6;*/
+  }
+
+p {
+    font-family: 'Acumen-Pro', sans-serif;
+      font-weight: 300;
+      line-height: 1.5em;
+      font-size: 16px;
+      color: #000033;
+      text-align: left;
+  }
+
+  p span {
+    font-family: 'Acumen-Pro', sans-serif;
+      font-weight: 300;
+      line-height: 1.5em;
+      font-size: 30px;
+      color: #000033;
+      text-align: left;
+  }
+
+#date {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  font-size: 16px;
+  color: #0000ff;
+}
+
+/*scroll nav*/
+header {
+    background: #f5b335;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
+
+.nav-up {
+    top: -40px;
+}
+
+
+#internal_container {
+  max-width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.maintitle {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 12vh;
+  color: #000033;
+  padding-top: 10vh;
+  padding-bottom: 10vh;}
+
+.heading2 {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 20px;
+  padding-top: 3vh;
+  padding-bottom: 1.5vh;
+}
+
+h1 {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 8vh;
+  color: #000033;
+}
+
+h1 a:link {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 8vh;
+  color: #0000ff;
+}
+
+h1 a:visited {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 8vh;
+  color: #0000ff;
+}
+
+h1 a:hover {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 8vh;
+  color: #17EF51;
+}
+
+h1 a:active {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 8vh;
+  color: #0000ff;
+}
+
+h1 span {
+  /*background-color:#f7f5f4;*/
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+h2 {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight:700;
+  line-height: 1em;
+  font-size: 35px;
+  color: #000033;
+}
+
+h2 span {
+  padding-left:15px;
+  padding-right: 15px;
+  position: absolute;
+}
+
+a span {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* LOGO */
+h3 {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 28px;
+  color: #0000ff;
+  text-align: left;
+}
+
+h3 a {
+  color: #0000ff;
+  -o-transition:.6s;
+-ms-transition:.6s;
+-moz-transition:.6s;
+-webkit-transition:.6s;
+/* ...and now for the proper property */
+transition:.6s;
+text-decoration: none;
+}
+
+h3 a:link{
+  color: #0000ff;
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+h3 a:visited{
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 28px;
+  color: #0000ff;
+  text-decoration: none;
+}
+
+h3 a:hover{
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 28px;
+  color: rgb(128, 223, 255);
+  text-decoration: none;
+}
+
+h3 a:active{
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 28px;
+  color: #0000ff;
+  text-decoration: none;
+}
+
+/* top nav bar bottom changer. aslo figure out coding for the color change... */
+h4 {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight:300;
+  font-style: italic;
+  font-size: 25px;
+  line-height: 1em;
+  color: #000033;
+}
+
+/* QUOTE */
+h5 {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight:300;
+  /*font-style: italic;*/
+  font-size: 30px;
+  line-height: 1.2em;
+  color: #000033;
+  /*border-width: 1px;
+  border-style: solid;
+  border-color: #0000ff;*/
+}
+
+h5 span {
+  /*background-color: #f7f5f4;*/
+  padding: 15px 15px 15px 15px;
+}
+
+/* DATE */
+h6 {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #000033;
+}
+
+h6 span {
+  /*background-color: #f7f5f4;*/
+  padding: 15px 15px 15px 15px;
+}
+
+/*STICKY*/
+.stickem-container {
+	position: relative;
+}
+
+.stickit {
+	margin-left: 660px;
+	position: fixed;
+	top: 0;
+}
+
+.stickit-end {
+	bottom: 0;
+	position: absolute;
+	right: 0;
+}
+/*NAVBAR*/
+.modal-content{
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+}
+
+/*SHRINKING NAV BAR
+#head {
+  background-color: #f6f6f6;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+#head, #head * { transition: all 0.5s ease; }
+
+#head.shrinked {
+  height: 30px;
+}
+
+#head.shrinked span {
+  color: blue;
+}
+
+#head_type {
+  font-size: 20vh;
+}
+
+#head_type, #head_type * {transition: all 0.5s ease;}
+
+#head_type.shrinked {
+  font-size: 25px;
+}
+#navbar_type {
+  font-size: 5vh;
+}
+#navbar_type.shrinked {
+  font-size: 30px;
+}
+#searchbar_nav
+*/
+#page {
+  margin: auto 0;
+}
+
+#logo_col {
+  border-style: solid;
+  border-top: 4px, #000033;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+/* LINES */
+/*
+#top_line {
+  border-style: solid;
+  border-top-width: 1px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  float: none;
+  margin: 0 auto;
+}
+*/
+
+/* NAVIGATION */
+/*
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+*/
+
+
+.button {
+    font-family: 'Acumen-Pro', sans-serif;
+    font-weight: 400;
+    color: #000033;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    padding-top: -10px;
+  }
+
+.button:hover {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  color: #000033;
+  font-size: 15px;
+  /*background-color: #f6f6f6;*/
+  text-decoration: none;
+}
+
+.button:after {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  color: #000033;
+  font-size: 15px;
+  display: inline-block;
+  /*padding: 1em;*/
+  /*background-color: #f6f6f6;*/
+  text-decoration: none;
+}
+
+.button:active {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  color: #000033;
+  font-size: 15px;
+  display: inline-block;
+  background-color: #f6f6f6;
+  text-decoration: none;
+}
+
+.button:visited {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 300;
+  color: #000033;
+  font-size: 15px;
+  display: inline-block;
+  /*padding: 1em;*/
+  /*background-color: #f6f6f6;*/
+  text-decoration: none;
+}
+.navbar{
+  /*background-color: #f6f6f6;*/
+    position: fixed;
+    /*background-color: #0000ff;*/
+    border-bottom-width: 1px;
+    border-color: #0000ff;
+    margin: 0 auto;
+    float: none;
+    padding-bottom: 5pt;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
+
+
+.navbar-nav {
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar-nav>li {
+  float: none;
+  margin: 0 auto;
+  border-style: solid;
+  border-top-width: 0px;
+  border-top-color: , #ff0000;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  float: none;
+  margin: 0 auto;
+}
+
+
+#navbar_linkgroup{
+  float: left;
+  margin: 0 auto;
+}
+
+#navbar_links{
+  width: 100%
+}
+/*
+.hvr-underline-from-left:before
+.hvr-underline-from-left:hover:before
+.hvr-underline-from-left:focus:before
+.hvr-underline-from-left:active:before
+.hvr-underline-from-left
+*/
+.ul_nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 400;
+  color: #F7FFF4;
+  letter-spacing: 0.1em;
+  padding: 15px 15px 15px 15px;
+
+}
+
+#navigation {
+  background-color: #0000ff;
+}
+
+#ul_nav li {
+  display: inline;
+  float: center;
+  padding: 15px 15px 15px 15px;
+
+}
+
+#logo h3 {
+  float: left;
+  display: inline;
+  border-style: solid;
+  border-top: 0px, #000033;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+.tweet {
+  /*background-color: #f6f6f6;*/
+  padding: 15px 15px 15px 15px;
+  width: 100%;
+}
+
+#news {
+}
+
+/*HASHTAGSNAVBAR*/
+.tags_nav {padding-right: 30px;}
+
+.portfolioContainer {
+  margin-top: 100px;
+  box-sizing: border-box;
+}
+
+  #news_thumb {
+    height: auto;
+    width: auto;
+    min-width: 350px;
+    max-width: 500px;
+    max-height: 500px;
+    min-height: 350px;
+  }
+
+
+/*SEARCH BOX*/
+#search {
+    float: right;
+    margin-top: 9px;
+    width: 250px;
+}
+
+.search {
+    padding: 5px 0;
+    margin-top: 10px;
+    width: 230px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    float: right;
+    line-height: 22px;
+    border-radius: 0 !important;
+
+}
+
+.search input {
+  position: absolute;
+  width: 40px;
+  float: right;
+  margin-left: 190px;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  height: 30px;
+  line-height: 18px;
+  padding: 0 2px 0 2px;
+  border-color: none;
+  border-radius: 0 !important;
+  background-color: transparent;
+  }
+
+.search:hover input, .search input:focus {
+  width: 100%;
+  margin-left: 0px;
+  /*background-color: #f6f6f6;*/
+
+        }
+
+.input-sm {
+  font-family: 'Acumen-Pro', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #0000ff;
+  border-radius: 0 !important;
+
+}
+
+.form-control {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-style: solid;
+  border-color: #0000ff;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 3px;
+  border-radius: 0 !important;
+  }
+
+.form-control:focus {
+  /*background-color: #f6f6f6;*/
+    border-color: black;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 3px;
+    border-color: #0000ff;
+    border-radius: 0 !important;
+      }
+
+.btn {
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border-radius:1px;
+  }
+
+
+/*FEATURED ARTICLE*/
+#featured_article {
+  /*background-color: #f6f6f6;*/
+  height: 100vh;
+  margin-top: 30px;
+}
+
+.featured_article_container {
+  height:100vh;
+  background-image: url('http://micagraphicdesign.org/wp-content/uploads/2015/12/fogarty21-700x500_c.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%, contain;
+}
+
+
+#article_image_container {
+  width: 100vh;
+  margin: 0 auto;
+  top: 6.66%;
+  left: 16.66%;
+  right: 16.66%;
+}
+
+#article_image {
+  width: 100vh;
+  height: 75vh;
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  padding: 21px 15px 15px 15px;
+  overflow:hidden;
+}
+#article_title {
+  /*background-color: #f6f6f6;*/
+  padding: 15px 15px 15px 15px;
+  width: 100%;
+  position: relative;
+  /*border-width: 1px;
+  border-style: solid;
+  border-color: #0000ff;*/
+}
+
+#pulled_quote {
+  margin-top: 38%;
+}
+
+.pulled_quote {
+  /*background-color: #f6f6f6;*/
+  padding: 15px 15px 15px 15px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+#social_feed {
+  /*background-color: #f6f6f6;*/
+  padding-top: -115px;
+  margin: 0 auto;
+}
+
+#social_feed2 {
+  /*background-color: #f6f6f6;*/
+  padding-top: 40px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  min-height: 90vh;
+}
+
+#body-text {
+  padding-bottom: 80px;
+}
+
+.body-image {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+/*SOCIAL MEDIA FEED*/
+/*
+.socialfeed_container{
+  background-color: #f6f6f6;
+  padding-top: -115px;
+  position: absolute;
+  padding-bottom: 170px;
+  margin: 0 auto;
+}
+*/
+
+
+/*INSTAGRAM IMAGES*/
+.title_overlay {
+  margin-top: -10px;
+}
+
+.insta_image {
+  position:relative;
+  overflow:hidden;
+  max-height: 70vh;
+  width: 100%;
+  /*background-color: #f6f6f6;*/
+}
+
+.insta_image img {
+  position:relative;
+}
+/*GRID IMAGES*/
+
+.image_container {
+  width: 100%;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  position: auto;
+}
+.studyabroad {
+  position:relative;
+  overflow: hidden;
+  width: 30.333%;
+  height: auto;
+  min-width: 200px;
+  padding: 5px 5px 5px 5px;
+  padding-bottom: 40px;
+}
+
+.internships {
+  position:relative;
+  overflow: hidden;
+  width: 30.333%;
+  min-width: 200px;
+  height: auto;
+  padding: 5px 5px 5px 5px;
+  padding-bottom: 40px;
+}
+
+.courses {
+  position:relative;
+  overflow: hidden;
+  width: 30.333%;
+  height: auto;
+  min-width: 200px;
+  padding: 5px 5px 5px 5px;
+  padding-bottom: 40px;
+}
+
+.faculty {
+  position:relative;
+  overflow: hidden;
+  width: 30.333%;
+  height: auto;
+  min-width: 200px;
+  padding: 5px 5px 5px 5px;
+  padding-bottom: 40px;
+}
+
+.reviews {
+  position:relative;
+  overflow: hidden;
+  width: 30.333%;
+  height: auto;
+  min-width: 200px;
+  padding: 5px 5px 5px 5px;
+  padding-bottom: 40px;
+}
+
+.dialogue {
+  position:relative;
+  overflow: hidden;
+  width: 30.333%;
+  height: auto;
+  min-width: 200px;
+  padding: 5px 5px 5px 5px;
+  padding-bottom: 40px;
+}
+
+
+
+/*NEWS IMAGES*/
+.news_image {
+  position:relative;
+  overflow: hidden;
+  width: 33.333%;
+  min-width: 33.333%;
+  max-width: 33.333%;
+}
+
+/*SEARCH BAR*/
+.btn {
+  background-color: #fff;
+}
+.input {
+  border-width: 2px;}
+
+  /*events*/
+  #event_img_container {
+    overflow: hidden;
+    margin-bottom: 2vh;
+    max-height: 40vh;
+  }
+
+  #event_img {
+    height: auto;
+    width: auto;
+    max-width: 350px;
+    max-height: 350px;
+  }
+
+  #month {
+    position: absolute;
+        /*right: 10px;
+        bottom: 10px;
+        font-size: 12px;
+        */
+        transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        line-height: 15px;
+        height: 15px;
+        width: 15px;
+        overflow: visible;
+        white-space: nowrap;
+  }
+
+
+  /*article images */
+  #full_bleed_img {
+    overflow: hidden;
+    max-height: 80vh;
+    margin-bottom: 2vh;
+  }
+
+  #full_bleed_img2 {
+    width:100%;
+    overflow: hidden;
+  }
+
+  .article_wrapper {
+    width: 100%;
+    min-height: 150vh;
+    box-sizing: border-box;
+  }
+
+  .articles {
+    box-sizing: border-box;
+  }
